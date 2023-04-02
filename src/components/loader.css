@@ -1,6 +1,6 @@
 .spinner {
-  width: 56px;
-  height: 56px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background: radial-gradient(farthest-side, #474bff 94%, #0000) top/9px 9px
       no-repeat,
