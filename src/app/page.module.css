@@ -5,6 +5,10 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: url('../../public/whiteback.jpg'); */
 }
 
 .description {
