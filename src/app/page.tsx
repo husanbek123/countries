@@ -5,9 +5,8 @@ import { api } from "../utils/axios";
 import { font } from "@/components/font";
 import { useLocalStore } from "@/utils/store/store";
 import { useEffect, useState } from "react";
-import { Card, Grid, Row, Text } from '@nextui-org/react';
+import { Card, Grid, Row, Text } from "@nextui-org/react";
 import { Loader } from "@/components/loader";
-
 
 export default function Home() {
   const [datas, setDatas] = useState([]);
@@ -67,7 +66,6 @@ export default function Home() {
           )}
         </div>
       </div>
->>>>>>> d6030707d63793b74b0e7673cf7c7669b6262bed
     </main>
   );
 }
