@@ -39,7 +39,7 @@ export default function Home() {
         <div className={styles.wrapper}>
           {datas.length ? (
             <Grid.Container gap={2} justify="flex-start">
-              {datas?.map((item, index) => (
+              {datas?.map((item : any, index) => (
                 <Grid
                   xs={6}
                   sm={3}
