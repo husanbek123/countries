@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import styles from "./page.module.css";
 import { api } from "../utils/axios";
+import styles from "./page.module.css";
 import { font } from "@/components/font";
 import { useLocalStore } from "@/utils/store/store";
 import { useEffect, useState } from "react";
@@ -28,7 +28,12 @@ export default function Home() {
                   gap: "20px",
                 }}
               >
-                <Input bordered labelPlaceholder="Default" style={font.style} color="primary" />
+                <Input
+                  bordered
+                  labelPlaceholder="Default"
+                  style={font.style}
+                  color="primary"
+                />
                 <Button shadow color="primary" auto>
                   Primary
                 </Button>
@@ -39,7 +44,7 @@ export default function Home() {
         <div className={styles.wrapper}>
           {datas.length ? (
             <Grid.Container gap={2} justify="flex-start">
-              {datas?.map((item : any, index) => (
+              {datas?.map((item: any, index) => (
                 <Grid
                   xs={6}
                   sm={3}
